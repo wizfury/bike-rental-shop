@@ -55,7 +55,33 @@ graph TD;
     RETURN-->PHONE-NUMBER;
     PHONE-NUMBER-->RETURN_RENTAL_ID;
     RETURN_RENTAL_ID-->START;
-    
-    
-
 ```
+
+Here is a ER Diagram:
+
+
+```mermaid
+erDiagram
+    BIKES ||--o| RENTALS: available_bikes
+    BIKES {
+        int bike_id PK
+        VARCHAR(50) type
+        int size
+        boolean available
+    }
+    
+    CUSTOMERS ||--o| RENTALS: to_customer
+    CUSTOMERS {
+        int cumstomer_id PK
+        VARCHAR(15) phone
+        VARCHAR(40) name
+    }
+    RENTALS{
+        int customer_id PK,FK
+        int bike_id PK,FK
+        date date_rented
+        date date_returned
+    }
+    BIKE_RENTAL_SHOP only one to zero or more BIKES: rents
+```
+
