@@ -1,12 +1,13 @@
 ~~ DATABASE INFO! ~~
 
-![Database_info](https://github.com/wizfury/bike-rental-shop/assets/68225960/c1508617-67b4-4bda-8444-9510dca9d615)
+![Database_info](https://github.com/wizfury/bike-rental-shop/assets/68225960/b3ecf6e2-ec8f-463f-a543-bb575a55d32e)
 
 Database details
 
 ~~ TABLE INFO! ~~
 
 ![1 Customers_info](https://github.com/wizfury/bike-rental-shop/assets/68225960/50dd4527-9f29-409a-b58b-35a0daa66885)
+
 
 Customer table info
 
